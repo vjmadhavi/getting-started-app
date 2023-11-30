@@ -5,12 +5,14 @@ body{
 }
 header{
     text-align: center;
-    background-color: rgb(4, 52, 36);
+    background-color: brown;
     color:white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-
+nav {
+    text-align: center;
+}
 nav ul {
     padding: 0px;
 }
@@ -31,27 +33,17 @@ nav ul li a:hover{
     color: white;
 
 }
-.one{
-    height: 30vh;
+.one, .two, .three{
     width: 80%;
-    
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+   
 }
-.two{
-    height: 30vh;
-    width: 80%;
-    
-}
-.three{
-    height: 30vh;
-    width: 80%;
-    
-}
-.four{
-    height: 30vh;
-    width: 80%;
-    
-}
-
 
 .containerOne{
     border: 1px solid grey;
@@ -61,5 +53,32 @@ nav ul li a:hover{
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     color: white;
+}
+
+#learn{
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: gray;
+    padding: 15px 20px;
+    border: 1px solid rgba(202, 51, 51, 0.2);
+    border-radius: 10px;
+    color: white;
+}
+
+#learn:hover{
+color: black;
+background-color: brown;
+
+}
+
+.four{
+    width: 80%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
